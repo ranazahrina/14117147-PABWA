@@ -1,0 +1,93 @@
+body{
+    background-color : rebeccapurple ;
+    background-image: url(Image/1556893963144.jpg);
+}
+@font-face {
+    font-family: cherish;
+    src:url("Gen.otf");
+}
+header{
+	text-align: left;
+    color: lavender;
+
+    font-style: initial;
+}
+header .judul{
+    font-size: 50pt;
+    font-family: cherish;
+    color:darkorchid;
+    font-style: oblique;
+    font-display: unset;
+    padding: 0%;
+    text-shadow: #eea7df;
+}
+
+
+footer{
+    text-emphasis-position: inherit;
+}
+article.judul {
+    font-variant-position: super;
+    font-display: inherit;
+    font-display: flex;
+    font-size: 25pt;
+    font-style: oblique;
+    color: indigo;
+    position: relative;
+    max-width: 550px ;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 10px 10px 15px rgba(0,0,0,.5);
+}
+
+.deskripsi{
+    font-size: 12pt;
+    font-display: flex;
+    padding: 0in;
+    font-style: oblique;
+    color: indigo;
+    background-color: thistle;
+}
+nav.menu ul {
+	overflow:hidden;
+	color:indigo;
+	list-style: none;
+    float:left;
+    display:flex;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: thistle;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+nav.menu ul li {
+	margin:20;
+	float:left;
+}
+
+nav.menu ul a {
+	padding:30px;
+	display:flex;
+	font-weight:600;
+	font-size: 16px;
+	color:plum;
+	text-transform: uppercase;
+	transition: all 1s ease;
+	text-decoration: none;
+}
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:indigo;
+}
+.wrapper  {
+
+color : white;
+background: lavender;
+width:200px ;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+
+}
