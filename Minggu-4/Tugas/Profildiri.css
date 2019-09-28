@@ -1,0 +1,39 @@
+body {
+  font: 20px, arial;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+.bg-1 {
+  background-color: Indianred;
+  color: pink;
+}
+.bg-2 {
+  background-color: crimson;
+  color: pink;
+}
+.bg-3 {
+  background-color: lightcoral;
+  color: pink;
+}
+.bg-4 {
+  background-color: lightsteelblue; /* Black Gray */
+  color: black;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
